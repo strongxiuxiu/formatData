@@ -1,5 +1,6 @@
 import setuptools
-with open("README.md", "r") as fh:
+# with open("README.md", type,encoding='UTF-8') as f:
+with open("README.md", "r",encoding='UTF-8') as fh:
     long_description = fh.read()
 setuptools.setup(
     name="formatData",  # 模块名称

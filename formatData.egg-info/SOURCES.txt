@@ -1,0 +1,8 @@
+README.md
+setup.py
+formatData/__init__.py
+formatData/httpResponce.py
+formatData.egg-info/PKG-INFO
+formatData.egg-info/SOURCES.txt
+formatData.egg-info/dependency_links.txt
+formatData.egg-info/top_level.txt
