@@ -4,7 +4,7 @@ with open("README.md", "r",encoding='UTF-8') as fh:
     long_description = fh.read()
 setuptools.setup(
     name="formatData",  # 模块名称
-    version="1.0",  # 当前版本
+    version="1.1",  # 当前版本
     author="panxiuqiang",  # 作者
     author_email="501274367@qq.com",  # 作者邮箱
     description="这是一个关于python web 后端json数据返回的工具",  # 模块简介
