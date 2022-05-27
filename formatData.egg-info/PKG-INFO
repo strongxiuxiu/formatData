@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: formatData
-Version: 1.1
+Version: 1.0
 Summary: 这是一个关于python web 后端json数据返回的工具
 Home-page: https://github.com/strongxiuxiu/formatData.git
 Author: panxiuqiang
@@ -63,7 +63,7 @@ Description: # formatData
         
         
         #  这是失败时候，返回的数据及包结构
-        from formatData.httpResponce import ErrorDataFormat
+        from formatData.httpResponce import SuccessDataFormat
         result = ErrorDataFormat(
             ch_message="调用数据失败/获取权限不足", data=None,
             en_message="ERROR").result()
@@ -73,7 +73,6 @@ Description: # formatData
         
         
         #  这是异常时候，返回的数据及包结构
-        from formatData.httpResponce import ExceptionDataFormat
             result = ExceptionDataFormat(
                 ch_message="调用异常", data=None,
                 en_message="Exception").result()
